@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSet" targetNamespace="http://tempuri.org/DSet.xsd" xmlns:mstns="http://tempuri.org/DSet.xsd" xmlns="http://tempuri.org/DSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSet" msprop:Generator_UserDSName="DSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDocType" msprop:Generator_TableClassName="tblDocTypeDataTable" msprop:Generator_TableVarName="tabletblDocType" msprop:Generator_TablePropName="tblDocType" msprop:Generator_RowDeletingName="tblDocTypeRowDeleting" msprop:Generator_RowChangingName="tblDocTypeRowChanging" msprop:Generator_RowEvHandlerName="tblDocTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDocTypeRowDeleted" msprop:Generator_UserTableName="tblDocType" msprop:Generator_RowChangedName="tblDocTypeRowChanged" msprop:Generator_RowEvArgName="tblDocTypeRowChangeEvent" msprop:Generator_RowClassName="tblDocTypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dt_no" msprop:Generator_ColumnVarNameInTable="columndt_no" msprop:Generator_ColumnPropNameInRow="dt_no" msprop:Generator_ColumnPropNameInTable="dt_noColumn" msprop:Generator_UserColumnName="dt_no" type="xs:unsignedByte" />
+              <xs:element name="dt_name" msprop:Generator_ColumnVarNameInTable="columndt_name" msprop:Generator_ColumnPropNameInRow="dt_name" msprop:Generator_ColumnPropNameInTable="dt_nameColumn" msprop:Generator_UserColumnName="dt_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblItems" msprop:Generator_TableClassName="tblItemsDataTable" msprop:Generator_TableVarName="tabletblItems" msprop:Generator_TablePropName="tblItems" msprop:Generator_RowDeletingName="tblItemsRowDeleting" msprop:Generator_RowChangingName="tblItemsRowChanging" msprop:Generator_RowEvHandlerName="tblItemsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblItemsRowDeleted" msprop:Generator_UserTableName="tblItems" msprop:Generator_RowChangedName="tblItemsRowChanged" msprop:Generator_RowEvArgName="tblItemsRowChangeEvent" msprop:Generator_RowClassName="tblItemsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item_no" msprop:Generator_ColumnVarNameInTable="columnitem_no" msprop:Generator_ColumnPropNameInRow="item_no" msprop:Generator_ColumnPropNameInTable="item_noColumn" msprop:Generator_UserColumnName="item_no" type="xs:unsignedByte" />
+              <xs:element name="item_name" msprop:Generator_ColumnVarNameInTable="columnitem_name" msprop:Generator_ColumnPropNameInRow="item_name" msprop:Generator_ColumnPropNameInTable="item_nameColumn" msprop:Generator_UserColumnName="item_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_code" msprop:Generator_ColumnVarNameInTable="columnitem_code" msprop:Generator_ColumnPropNameInRow="item_code" msprop:Generator_ColumnPropNameInTable="item_codeColumn" msprop:Generator_UserColumnName="item_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_unit_name" msprop:Generator_ColumnVarNameInTable="columnitem_unit_name" msprop:Generator_ColumnPropNameInRow="item_unit_name" msprop:Generator_ColumnPropNameInTable="item_unit_nameColumn" msprop:Generator_UserColumnName="item_unit_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_unit_quantity" msprop:Generator_ColumnVarNameInTable="columnitem_unit_quantity" msprop:Generator_ColumnPropNameInRow="item_unit_quantity" msprop:Generator_ColumnPropNameInTable="item_unit_quantityColumn" msprop:Generator_UserColumnName="item_unit_quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="item_unit_bit_name" msprop:Generator_ColumnVarNameInTable="columnitem_unit_bit_name" msprop:Generator_ColumnPropNameInRow="item_unit_bit_name" msprop:Generator_ColumnPropNameInTable="item_unit_bit_nameColumn" msprop:Generator_UserColumnName="item_unit_bit_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_unit_bit_quantity" msprop:Generator_ColumnVarNameInTable="columnitem_unit_bit_quantity" msprop:Generator_ColumnPropNameInRow="item_unit_bit_quantity" msprop:Generator_ColumnPropNameInTable="item_unit_bit_quantityColumn" msprop:Generator_UserColumnName="item_unit_bit_quantity" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblItemTransctions" msprop:Generator_TableClassName="tblItemTransctionsDataTable" msprop:Generator_TableVarName="tabletblItemTransctions" msprop:Generator_TablePropName="tblItemTransctions" msprop:Generator_RowDeletingName="tblItemTransctionsRowDeleting" msprop:Generator_RowChangingName="tblItemTransctionsRowChanging" msprop:Generator_RowEvHandlerName="tblItemTransctionsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblItemTransctionsRowDeleted" msprop:Generator_UserTableName="tblItemTransctions" msprop:Generator_RowChangedName="tblItemTransctionsRowChanged" msprop:Generator_RowEvArgName="tblItemTransctionsRowChangeEvent" msprop:Generator_RowClassName="tblItemTransctionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="it_no" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnit_no" msprop:Generator_ColumnPropNameInRow="it_no" msprop:Generator_ColumnPropNameInTable="it_noColumn" msprop:Generator_UserColumnName="it_no" type="xs:int" />
+              <xs:element name="item_no" msprop:Generator_ColumnVarNameInTable="columnitem_no" msprop:Generator_ColumnPropNameInRow="item_no" msprop:Generator_ColumnPropNameInTable="item_noColumn" msprop:Generator_UserColumnName="item_no" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="doc_no" msprop:Generator_ColumnVarNameInTable="columndoc_no" msprop:Generator_ColumnPropNameInRow="doc_no" msprop:Generator_ColumnPropNameInTable="doc_noColumn" msprop:Generator_UserColumnName="doc_no" type="xs:int" minOccurs="0" />
+              <xs:element name="it_in" msprop:Generator_ColumnVarNameInTable="columnit_in" msprop:Generator_ColumnPropNameInRow="it_in" msprop:Generator_ColumnPropNameInTable="it_inColumn" msprop:Generator_UserColumnName="it_in" type="xs:int" minOccurs="0" />
+              <xs:element name="it_out" msprop:Generator_ColumnVarNameInTable="columnit_out" msprop:Generator_ColumnPropNameInRow="it_out" msprop:Generator_ColumnPropNameInTable="it_outColumn" msprop:Generator_UserColumnName="it_out" type="xs:int" minOccurs="0" />
+              <xs:element name="it_bit_in" msprop:Generator_ColumnVarNameInTable="columnit_bit_in" msprop:Generator_ColumnPropNameInRow="it_bit_in" msprop:Generator_ColumnPropNameInTable="it_bit_inColumn" msprop:Generator_UserColumnName="it_bit_in" type="xs:int" minOccurs="0" />
+              <xs:element name="it_bit_out" msprop:Generator_ColumnVarNameInTable="columnit_bit_out" msprop:Generator_ColumnPropNameInRow="it_bit_out" msprop:Generator_ColumnPropNameInTable="it_bit_outColumn" msprop:Generator_UserColumnName="it_bit_out" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblStockDocuments" msprop:Generator_TableClassName="tblStockDocumentsDataTable" msprop:Generator_TableVarName="tabletblStockDocuments" msprop:Generator_TablePropName="tblStockDocuments" msprop:Generator_RowDeletingName="tblStockDocumentsRowDeleting" msprop:Generator_RowChangingName="tblStockDocumentsRowChanging" msprop:Generator_RowEvHandlerName="tblStockDocumentsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblStockDocumentsRowDeleted" msprop:Generator_UserTableName="tblStockDocuments" msprop:Generator_RowChangedName="tblStockDocumentsRowChanged" msprop:Generator_RowEvArgName="tblStockDocumentsRowChangeEvent" msprop:Generator_RowClassName="tblStockDocumentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="doc_no" msprop:Generator_ColumnVarNameInTable="columndoc_no" msprop:Generator_ColumnPropNameInRow="doc_no" msprop:Generator_ColumnPropNameInTable="doc_noColumn" msprop:Generator_UserColumnName="doc_no" type="xs:int" />
+              <xs:element name="doc_date" msprop:Generator_ColumnVarNameInTable="columndoc_date" msprop:Generator_ColumnPropNameInRow="doc_date" msprop:Generator_ColumnPropNameInTable="doc_dateColumn" msprop:Generator_UserColumnName="doc_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="doc_desc" msprop:Generator_ColumnVarNameInTable="columndoc_desc" msprop:Generator_ColumnPropNameInRow="doc_desc" msprop:Generator_ColumnPropNameInTable="doc_descColumn" msprop:Generator_UserColumnName="doc_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="doc_wh_no" msprop:Generator_ColumnVarNameInTable="columndoc_wh_no" msprop:Generator_ColumnPropNameInRow="doc_wh_no" msprop:Generator_ColumnPropNameInTable="doc_wh_noColumn" msprop:Generator_UserColumnName="doc_wh_no" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="dt_no" msprop:Generator_ColumnVarNameInTable="columndt_no" msprop:Generator_ColumnPropNameInRow="dt_no" msprop:Generator_ColumnPropNameInTable="dt_noColumn" msprop:Generator_UserColumnName="dt_no" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblTempTransctions" msprop:Generator_TableClassName="tblTempTransctionsDataTable" msprop:Generator_TableVarName="tabletblTempTransctions" msprop:Generator_TablePropName="tblTempTransctions" msprop:Generator_RowDeletingName="tblTempTransctionsRowDeleting" msprop:Generator_RowChangingName="tblTempTransctionsRowChanging" msprop:Generator_RowEvHandlerName="tblTempTransctionsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblTempTransctionsRowDeleted" msprop:Generator_UserTableName="tblTempTransctions" msprop:Generator_RowChangedName="tblTempTransctionsRowChanged" msprop:Generator_RowEvArgName="tblTempTransctionsRowChangeEvent" msprop:Generator_RowClassName="tblTempTransctionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dt_no" msprop:Generator_ColumnVarNameInTable="columndt_no" msprop:Generator_ColumnPropNameInRow="dt_no" msprop:Generator_ColumnPropNameInTable="dt_noColumn" msprop:Generator_UserColumnName="dt_no" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="dt_name" msprop:Generator_ColumnVarNameInTable="columndt_name" msprop:Generator_ColumnPropNameInRow="dt_name" msprop:Generator_ColumnPropNameInTable="dt_nameColumn" msprop:Generator_UserColumnName="dt_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="doc_no" msprop:Generator_ColumnVarNameInTable="columndoc_no" msprop:Generator_ColumnPropNameInRow="doc_no" msprop:Generator_ColumnPropNameInTable="doc_noColumn" msprop:Generator_UserColumnName="doc_no" type="xs:int" minOccurs="0" />
+              <xs:element name="doc_date" msprop:Generator_ColumnVarNameInTable="columndoc_date" msprop:Generator_ColumnPropNameInRow="doc_date" msprop:Generator_ColumnPropNameInTable="doc_dateColumn" msprop:Generator_UserColumnName="doc_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="doc_desc" msprop:Generator_ColumnVarNameInTable="columndoc_desc" msprop:Generator_ColumnPropNameInRow="doc_desc" msprop:Generator_ColumnPropNameInTable="doc_descColumn" msprop:Generator_UserColumnName="doc_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="doc_wh_no" msprop:Generator_ColumnVarNameInTable="columndoc_wh_no" msprop:Generator_ColumnPropNameInRow="doc_wh_no" msprop:Generator_ColumnPropNameInTable="doc_wh_noColumn" msprop:Generator_UserColumnName="doc_wh_no" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="it_no" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnit_no" msprop:Generator_ColumnPropNameInRow="it_no" msprop:Generator_ColumnPropNameInTable="it_noColumn" msprop:Generator_UserColumnName="it_no" type="xs:int" minOccurs="0" />
+              <xs:element name="item_no" msprop:Generator_ColumnVarNameInTable="columnitem_no" msprop:Generator_ColumnPropNameInRow="item_no" msprop:Generator_ColumnPropNameInTable="item_noColumn" msprop:Generator_UserColumnName="item_no" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_UserColumnName="Expr2" type="xs:int" minOccurs="0" />
+              <xs:element name="it_in" msprop:Generator_ColumnVarNameInTable="columnit_in" msprop:Generator_ColumnPropNameInRow="it_in" msprop:Generator_ColumnPropNameInTable="it_inColumn" msprop:Generator_UserColumnName="it_in" type="xs:int" minOccurs="0" />
+              <xs:element name="it_out" msprop:Generator_ColumnVarNameInTable="columnit_out" msprop:Generator_ColumnPropNameInRow="it_out" msprop:Generator_ColumnPropNameInTable="it_outColumn" msprop:Generator_UserColumnName="it_out" type="xs:int" minOccurs="0" />
+              <xs:element name="it_bit_in" msprop:Generator_ColumnVarNameInTable="columnit_bit_in" msprop:Generator_ColumnPropNameInRow="it_bit_in" msprop:Generator_ColumnPropNameInTable="it_bit_inColumn" msprop:Generator_UserColumnName="it_bit_in" type="xs:int" minOccurs="0" />
+              <xs:element name="it_bit_out" msprop:Generator_ColumnVarNameInTable="columnit_bit_out" msprop:Generator_ColumnPropNameInRow="it_bit_out" msprop:Generator_ColumnPropNameInTable="it_bit_outColumn" msprop:Generator_UserColumnName="it_bit_out" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr3" msprop:Generator_ColumnVarNameInTable="columnExpr3" msprop:Generator_ColumnPropNameInRow="Expr3" msprop:Generator_ColumnPropNameInTable="Expr3Column" msprop:Generator_UserColumnName="Expr3" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="item_name" msprop:Generator_ColumnVarNameInTable="columnitem_name" msprop:Generator_ColumnPropNameInRow="item_name" msprop:Generator_ColumnPropNameInTable="item_nameColumn" msprop:Generator_UserColumnName="item_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_code" msprop:Generator_ColumnVarNameInTable="columnitem_code" msprop:Generator_ColumnPropNameInRow="item_code" msprop:Generator_ColumnPropNameInTable="item_codeColumn" msprop:Generator_UserColumnName="item_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_unit_name" msprop:Generator_ColumnVarNameInTable="columnitem_unit_name" msprop:Generator_ColumnPropNameInRow="item_unit_name" msprop:Generator_ColumnPropNameInTable="item_unit_nameColumn" msprop:Generator_UserColumnName="item_unit_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_unit_quantity" msprop:Generator_ColumnVarNameInTable="columnitem_unit_quantity" msprop:Generator_ColumnPropNameInRow="item_unit_quantity" msprop:Generator_ColumnPropNameInTable="item_unit_quantityColumn" msprop:Generator_UserColumnName="item_unit_quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="item_unit_bit_name" msprop:Generator_ColumnVarNameInTable="columnitem_unit_bit_name" msprop:Generator_ColumnPropNameInRow="item_unit_bit_name" msprop:Generator_ColumnPropNameInTable="item_unit_bit_nameColumn" msprop:Generator_UserColumnName="item_unit_bit_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_unit_bit_quantity" msprop:Generator_ColumnVarNameInTable="columnitem_unit_bit_quantity" msprop:Generator_ColumnPropNameInRow="item_unit_bit_quantity" msprop:Generator_ColumnPropNameInTable="item_unit_bit_quantityColumn" msprop:Generator_UserColumnName="item_unit_bit_quantity" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDocType" />
+      <xs:field xpath="mstns:dt_no" />
+    </xs:unique>
+    <xs:unique name="tblItems_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblItems" />
+      <xs:field xpath="mstns:item_no" />
+    </xs:unique>
+    <xs:unique name="tblItemTransctions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblItemTransctions" />
+      <xs:field xpath="mstns:it_no" />
+    </xs:unique>
+    <xs:unique name="tblStockDocuments_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblStockDocuments" />
+      <xs:field xpath="mstns:doc_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
